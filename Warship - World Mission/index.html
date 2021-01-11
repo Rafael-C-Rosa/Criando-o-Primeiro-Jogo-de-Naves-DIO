@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Warship - World Mission</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <h2 class="logo2">
+                Projeto - Jogo de Naves - Digital Innovation One.
+            </h2>
+        </div>
+    </header>
+    <div id="container">
+        <div id="backgroundGame">
+            <div id="inicio" onclick="start()">
+                <h1>Warship - World Mission</h1>
+                <h3>Salve os soldados e derrote os inimigos.</h3>
+                <p class="paragrafo1">Utilize as teclas W para movimentar o helicóptero para cima, S para mover para baixo e D para atirar. <br> Clique para iniciar!</p>
+
+            </div>
+        </div>
+    </div>
+    <audio src="sons/som.mp3" preload="auto" id="somDisparo"></audio>
+    <audio src="sons/explosao.mp3" preload="auto" id="somExplosao"></audio>
+    <audio src="sons/musica_fundo.mp3" preload="auto" id="musica"></audio>
+    <audio src="sons/gameover.mp3" preload="auto" id="somGameover"></audio>
+    <audio src="sons/perdido.mp3" preload="auto" id="somPerdido"></audio>
+    <audio src="sons/resgate.mp3" preload="auto" id="somResgate"></audio>
+
+
+
+    <script type="text/javascript" src="js/js.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-collision.min.js"></script>
+
+    <footer>
+        <p class="rodape">
+            <strong> Remake feito seguindo aulas para Javascript Game Developer na plataforma da Digital Innovation One atravéz do Prof.Denilson Bonatti.</strong>
+        </p>
+        <div class="final">
+            <a href="https://github.com/Rafael-C-Rosa" target="_blank">
+                <img src="./img/github.png" alt="github" height="35" width="37">
+            </a>
+            <a href="https://www.linkedin.com/in/rafael-rosa13/" target="_blank">
+                <img src="./img/linked-in.png" alt="linkedin" height="40" width="40">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
